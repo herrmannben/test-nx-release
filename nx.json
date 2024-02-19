@@ -39,5 +39,15 @@
         "targetName": "test"
       }
     }
-  ]
+  ],
+  "release": {
+    "projects": [
+      "*"
+    ],
+    "projectsRelationship": "independent",
+    "changelog": {
+      "projectChangelogs": true,
+      "automaticFromRef": true
+    }
+  }
 }
